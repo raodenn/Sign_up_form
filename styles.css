@@ -1,0 +1,125 @@
+* {
+    font-family: Sans-serif, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: odin;
+    src: url(assets/Norse-Bold.otf);
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    flex: 1 1 0;
+    background-image: url(assets/birmingham-museums-trust-zaAvk8K5Eno-unsplash\ \(1\).jpg);
+}
+
+.logo {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo p {
+    font-family: odin;
+    font-size: 80px;
+    color: white;
+}
+
+.right {
+    flex: 2 2 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+    flex: 1 1 auto;
+    width: 100%;
+    gap: 40px;
+}
+
+.main-text {
+    margin-left: 50px;
+    margin-right: 150px;
+    font-weight: 600;
+}
+
+.Sign-Up {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding-left: 50px;
+
+}
+
+.Sign-Up form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Sign-Up div {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 20px);
+    margin-bottom: 10px;
+}
+
+.Sign-Up div input {
+    width: 70%;
+}
+input{
+    border-radius: 5px;
+    border-width: thin;
+    border: 1px solid rgba(88, 86, 86, 0.651);
+}
+input:valid{
+    border: 1px solid rgba(6, 114, 153, 0.651);
+
+}
+input:invalid{
+    border: 1px solid rgba(206, 0, 0, 0.651);
+}
+input:hover,:focus{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(6, 114, 153, 0.651);
+
+}
+.bottom {
+    padding-left: 50px;
+
+}
+.bottom button{
+    color:white ;
+    background-color: #cbac8a;
+    border-radius: 5px;
+    width: 170px;
+    height: 35px;
+    border: #cbac8a;
+    font-weight: 600;
+}
+.bottom p a{
+    text-decoration: none;
+    color: #cbac8a;
+}
